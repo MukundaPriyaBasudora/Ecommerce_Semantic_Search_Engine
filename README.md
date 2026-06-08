@@ -3,6 +3,7 @@ An intelligent NLP-powered application designed to search, analyze, and visualiz
 
 🏗️ Tech Stack
 Programming Language: Python
+
 Data Processing: Pandas
 NLP: Sentence Transformers, Hugging Face
 Vector Database: ChromaDB
