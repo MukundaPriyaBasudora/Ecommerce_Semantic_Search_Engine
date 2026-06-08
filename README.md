@@ -80,17 +80,17 @@ http://localhost:8501
 
 ### 📊 Analytics Dashboard
 
-![Analytics Dashboard](images/Screenshot 2026-06-08 165200.png)
+![Analytics Dashboard](images/analytics_db_1.png)
 
-![Analytics Dashboard](images/Screenshot 2026-06-08 165210.png)
+![Analytics Dashboard](images/analytics_db_2.png)
 
-![Analytics Dashboard](images/Screenshot 2026-06-08 165139.png)
+![Analytics Dashboard](images/analytics_db_3.png)
 
 ### 🔍 Semantic Search
 
-![Semantic Search](images/Screenshot 2026-06-08 165043.png)
+![Semantic Search](images/semantic_search_1.png)
 
-![Semantic Search](images/Screenshot 2026-06-08 165008.png)
+![Semantic Search](images/semantic_search_2.png)
 
 ## Project Structure
 
