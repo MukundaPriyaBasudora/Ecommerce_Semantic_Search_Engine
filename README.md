@@ -119,11 +119,6 @@ Ecommerce_Semantic_Search_Engine
 B.Tech CSE (Data Science)
 Raghu Engineering College
 
-<<<<<<< HEAD
 GitHub: https://github.com/MukundaPriyaBasudora
 
-```
-```
-=======
 ✅ If you like this project, consider giving it a ⭐ on GitHub!Provide your feedback on BizChat
->>>>>>> c41dfea1d4686d09627ab4cf1503f40f624490b9
