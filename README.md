@@ -80,17 +80,27 @@ http://localhost:8501
 
 ### 📊 Analytics Dashboard
 
-![Analytics Dashboard](images/analytics_db_1.png)
+<p align="center">
+  <img src="images/analytics_db_1.png" width="850">
+</p>
 
-![Analytics Dashboard](images/analytics_db_2.png)
+<p align="center">
+  <img src="images/analytics_db_2.png" width="850">
+</p>
 
-![Analytics Dashboard](images/analytics_db_3.png)
+<p align="center">
+  <img src="images/analytics_db_3.png" width="850">
+</p>
 
 ### 🔍 Semantic Search
 
-![Semantic Search](images/semantic_search_1.png)
+<p align="center">
+  <img src="images/semantic_search_1.png" width="850">
+</p>
 
-![Semantic Search](images/semantic_search_2.png)
+<p align="center">
+  <img src="images/semantic_search_2.png" width="850">
+</p>
 
 ## Project Structure
 
