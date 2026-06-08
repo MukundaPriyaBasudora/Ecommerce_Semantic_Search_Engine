@@ -129,3 +129,23 @@ http://localhost:8501
 ### 🔍 Semantic Search
 ![Semantic Search](images/Screenshot 2026-06-08 165043.png)
 ![Semantic Search](images/Screenshot 2026-06-08 165008.png)
+
+
+
+🔮 Future Improvements
+
+✅ Persistent vector database (store embeddings)
+🤖 Product recommendation system
+✨ Review summarization using LLMs
+🔎 Advanced filters (category, rating, date)
+☁️ Deployment on Streamlit Cloud
+
+
+👩‍💻 Author
+Basudora Mukunda Priya
+🎓 B.Tech CSE (Data Science)
+🏫 Raghu Engineering College
+🔗 GitHub:
+https://github.com/MukundaPriyaBasudora
+
+✅ If you like this project, consider giving it a ⭐ on GitHub!Provide your feedback on BizChat
