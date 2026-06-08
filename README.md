@@ -1,151 +1,125 @@
-🛒 E-commerce Semantic Search & Review Analytics Engine:
-An intelligent NLP-powered application designed to search, analyze, and visualize product reviews. This tool helps users discover meaningful insights from customer feedback using semantic search and sentiment analysis.
+# 🛒 E-commerce Semantic Search & Review Analytics Engine
 
-🏗️ Tech Stack
-Programming Language: Python
-Data Processing: Pandas
-NLP: Sentence Transformers, Hugging Face
-Vector Database: ChromaDB
-Sentiment Analysis: VADER
-Visualization & UI: Streamlit
+An NLP-powered application for searching, analyzing, and visualizing Amazon product reviews using semantic search and sentiment analysis.
 
+## Overview
 
-🚀 What This Project Does:
-This project combines Natural Language Processing (NLP) and data analytics to:
+Traditional keyword search often fails to understand the intent behind a user's query. This project addresses that limitation by using vector embeddings and ChromaDB to perform semantic search over product reviews.
 
-🔍 Understand search queries like a human (not just keywords)
-😊 Analyze customer sentiments across thousands of reviews
-📊 Turn raw review data into actionable insights
-🌐 Provide an interactive and easy-to-use web interface
+The application also includes an interactive analytics dashboard for exploring customer sentiment, rating distributions, brand performance, and review trends.
 
+## Features
 
-✨ Features:
-🔍 Semantic Search
-Search reviews using natural language queries
-Finds contextually relevant results, not just keyword matches
-Built using Sentence Transformers and ChromaDB vector search
+### 🔍 Semantic Search
 
-😊 Sentiment Analysis
-Automatically classifies reviews into:
-✅ Positive
-😐 Neutral
-❌ Negative
-Powered by VADER Sentiment Analysis
+* Search reviews using natural language queries
+* Retrieve contextually relevant reviews instead of exact keyword matches
+* Powered by Sentence Transformers and ChromaDB
 
-📊 Interactive Analytics Dashboard
-Gain insights through visualizations like:
-Sentiment distribution
-Rating breakdown
-Top-performing brands (by average rating)
-Trends in reviews over time
-Overall dataset statistics
+### 😊 Sentiment Analysis
 
-🌐 User Interface
-Built with Streamlit
-Clean, responsive, and interactive UI
-Real-time search and analytics updates
+* Classifies reviews as Positive, Neutral, or Negative
+* Built using VADER Sentiment Analysis
 
-📂 Project Structure:
-Ecommerce_Semantic_Search_Engine/
-│
-├── data/
-│   ├── amazon_reviews.csv
-│   └── processed_reviews.csv
-│
-├── notebooks/
-│   └── 01_data_exploration.ipynb
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── review_analytics.py
-│   └── semantic_search.py
-│
-├── app.py
-├── requirements.txt
-└── README.md
+### 📊 Analytics Dashboard
 
-📊 Dataset Overview
-This project uses a dataset of:
-📦 34,000+ Amazon product reviews
-⭐ Ratings and review scores
-📝 Review titles and full text
-🕒 Review timestamps
-🛍️ Product categories such as:
-Amazon Echo
-Fire TV
-Kindle
-Fire Tablets
+* Sentiment distribution
+* Rating distribution
+* Brand-level statistics
+* Review trends over time
+* Dataset summary metrics
 
+## Tech Stack
 
-⚙️ Installation
+| Component          | Technology            |
+| ------------------ | --------------------- |
+| Language           | Python                |
+| Data Processing    | Pandas                |
+| NLP                | Sentence Transformers |
+| Vector Database    | ChromaDB              |
+| Sentiment Analysis | VADER                 |
+| Dashboard          | Streamlit             |
 
-Clone the repository:
+## Dataset
+
+The project uses a dataset containing more than 34,000 Amazon product reviews, including:
+
+* Product information
+* Ratings
+* Review titles
+* Review text
+* Review timestamps
+
+Products include Amazon Echo devices, Fire TV, Kindle readers, and Fire Tablets.
+
+## Installation
 
 ```bash
 git clone <your-github-repo-link>
 cd Ecommerce_Semantic_Search_Engine
-```
 
-Create virtual environment:
-
-```bash
 python -m venv venv
-```
-
-Activate environment:
-
-### Windows
-
-```bash
 venv\Scripts\activate
-```
 
-Install dependencies:
-
-```bash
 pip install -r requirements.txt
 ```
 
----
-
-## ▶️ Run Application
+## Run Application
 
 ```bash
 streamlit run app.py
 ```
 
 Application will be available at:
+
 ```text
 http://localhost:8501
+```
 
-
-## 📸 Screenshots
+## Screenshots
 
 ### 📊 Analytics Dashboard
+
 ![Analytics Dashboard](images/Screenshot 2026-06-08 165200.png)
+
 ![Analytics Dashboard](images/Screenshot 2026-06-08 165210.png)
+
 ![Analytics Dashboard](images/Screenshot 2026-06-08 165139.png)
 
 ### 🔍 Semantic Search
+
 ![Semantic Search](images/Screenshot 2026-06-08 165043.png)
+
 ![Semantic Search](images/Screenshot 2026-06-08 165008.png)
 
+## Project Structure
 
+```text
+Ecommerce_Semantic_Search_Engine
+│
+├── data
+├── notebooks
+├── src
+├── app.py
+├── requirements.txt
+└── README.md
+```
 
-🔮 Future Improvements
+## Future Improvements
 
-✅ Persistent vector database (store embeddings)
-🤖 Product recommendation system
-✨ Review summarization using LLMs
-🔎 Advanced filters (category, rating, date)
-☁️ Deployment on Streamlit Cloud
+* Persistent vector database storage
+* Product recommendation system
+* Review summarization using LLMs
+* Advanced filtering by category, rating, and date
+* Cloud deployment
 
+## Author
 
-👩‍💻 Author
-Basudora Mukunda Priya
-🎓 B.Tech CSE (Data Science)
-🏫 Raghu Engineering College
-🔗 GitHub:
-https://github.com/MukundaPriyaBasudora
+**Basudora Mukunda Priya**
+B.Tech CSE (Data Science)
+Raghu Engineering College
 
-✅ If you like this project, consider giving it a ⭐ on GitHub!Provide your feedback on BizChat
+GitHub: https://github.com/MukundaPriyaBasudora
+
+```
+```
