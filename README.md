@@ -1,9 +1,10 @@
 🛒 E-commerce Semantic Search & Review Analytics Engine:
 An intelligent NLP-powered application designed to search, analyze, and visualize product reviews. This tool helps users discover meaningful insights from customer feedback using semantic search and sentiment analysis.
 
+
+
 🏗️ Tech Stack
 Programming Language: Python
-
 Data Processing: Pandas
 NLP: Sentence Transformers, Hugging Face
 Vector Database: ChromaDB
